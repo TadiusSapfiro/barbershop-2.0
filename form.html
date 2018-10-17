@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>
+		Барбершоп "Бородинский"
+	</title>
+
+</head>
+	<body>
+		<header class="header">
+			<a href="#" class=" header__logo-link">
+				<img src="images/svg/logotype-mobile.svg" width="226" height="30" alt="Барбершоп 'Бородинский'" class="header__logo-image">
+			</a>
+			<nav class="main-nav">
+				<button class=" main-nav__toggle" type="button">Переключить меню</button>
+				<div class="main-nav__wrapper">
+					<ul class="main-nav__list site-nav">
+						<li class="site-nav__item site-nav__item--active">
+							<a class="site-nav__link">Главная</a>
+						</li>
+						<li class="site-nav__item">
+							<a href="photo.html" class="site-nav__link">Наши работы</a>
+						</li>
+						<li class="site-nav__item">
+							<a href="form.html" class="site-nav__link">Записаться</a>
+						</li>
+							<li class="site-nav__item">
+								<a href="#" class="site-nav__link">Контакты</a>
+						</li>
+							<li class="site-nav__item">
+								<a href="#" class="site-nav__link">html academy</a>
+						</li>
+					</ul>
+					<ul class="main-nav__list user-nav">
+						<li class="user-nav__item">
+							<a href="#" class="user-nav__login">Войти</a>
+						</li>
+					</ul>
+				</div>
+				<button class="main-nav__close-btn">закрыть</button>
+			</nav>
+		</header>
+		<main class="main">
+			<section class="sign-up">
+				<h1 class="sign-up__title">Запись на стрижку</h1>
+				<form action="#" method="post" class="sign-up__form">
+					<fieldset class="sign-up__contact contact">
+						<input type="text" class="contact__login" placeholder="Фамилия">
+						<input type="text" class="contact__login" placeholder="Имя">
+						<input type="text" class="contact__login" placeholder="Отчество">
+						<input type="tel" class="contact__phone" placeholder="Контактный телефон">
+						<input type="email" class="contact__email" placeholder="Контактный e-mail">
+						<textarea name="info" cols="30" rows="10" class="contact__info" placeholder="Доп. информация для мастера"></textarea>
+					</fieldset>
+					<fieldset class="sign-up__beard-type beard-type">
+						<legend class="beard-type__title">Выберите модель бороды:</legend>
+						<label class="beard-type__label">
+							<input name="beard-type" type="radio" class="beard-type__radio beard-type__radio--admiral">
+							адмирал
+						</label>
+						<label class="beard-type__label">
+							<input name="beard-type" type="radio" class="beard-type__radio beard-type__radio--lumberman">
+							лесоруб
+						</label>
+						<label class="beard-type__label">
+							<input name="beard-type" type="radio" class="beard-type__radio beard-type__radio--polar-explorer">
+							полярник
+						</label>
+						<label class="beard-type__label">
+							<input name="beard-type" type="radio" class="beard-type__radio beard-type__radio--boiarin">
+							боярин
+						</label>
+						<label class="beard-type__label">
+							<input name="beard-type" type="radio" class="beard-type__radio beard-type__radio--wiseman">
+							мудрец
+						</label>
+					</fieldset>
+					<fieldset class="sign-up__sevice service">
+						<legend class="service__title">Дополнительные услуги:</legend>
+						<label class="service__label">
+							<input name="paint" type="checkbox" class="service__checkbox">
+							Подкрасить бороду
+						</label>
+						<label class="service__label">
+							<input name="curl" type="checkbox" class="service__checkbox">
+							Накрутить усы
+						</label>
+						<label class="service__label">
+							<input name="brush" type="checkbox" class="service__checkbox">
+							Причесать бороду
+						</label>
+						<label class="service__label">
+							<input name="temple" type="checkbox" class="service__checkbox">
+							Подровнять виски
+						</label>
+						<label class="service__label">
+							<input name="gray-hear" type="checkbox" class="service__checkbox">
+							Убрать седину
+						</label>
+						<label class="service__label">
+							<input name="bald-spot" type="checkbox" class="service__checkbox">
+							Отполировать лысину
+						</label>
+					</fieldset>
+					<button class="sign-up__submit button">Отправить заявку</button>
+				</form>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="contacts footer__contacts">
+				<b class="contacts__name">Барбершоп Бородинский</b>
+				<p class="contacts__adress">г. Санкт-Петербург, ул. Большая Конюшенная 19/8</p>
+				<a href="tel:+78125556666" class="contacts__telephone"><span class="phone-desktop"> Тел:</span> +7 (812) 555-66-66</a>
+			</div>
+			<section class="footer__social social">
+				<h2 class="social__title">Давайте дружить, это выгодно!</h2>
+				<ul class="social__list">
+					<li class="social__item">
+						<a href="#" class="social__link">
+								<img src="images/vk-icon-big.png" alt="Мы в ВКонтакте" class="social__network">
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="social__link">
+								<img src="images/facebook-icon-big.png" alt="Мы в Фейсбуке" class="social__network">
+						</a>
+					</li>
+					<li class="social__item">
+						<a href="#" class="social__link">
+								<img src="images/insta-icon-big.png" alt="Мы в Инстаграме" class="social__network">
+						</a>
+					</li>
+				</ul>
+			</section>
+			<div class="footer__developers developers">
+				<h2 class="developers__title">Разработано:</h2>
+				<a href="#" class="developers__link">HTML ACADEMY</a>
+			</div>
+		</footer>
+		<section class="modal modal-fail">
+			<h2 class="modal-fail__title">НЕУДАЧА</h2>
+			<p class="modal-fail__text">Что-то пошло не так. Проверьте выделенные красным поля формы.</p>
+			<button class="modal-fail__close-btn button">ОК</button>
+		</section>
+		<section class="modal modal-success">
+			<h2 class="modal-success__title">ЭТО УСПЕХ!</h2>
+			<p class="modal-success__text">Ваша заявка отправлена. Ожидайте, мы свяжемся с вами как только будет минутка.</p>
+			<button class="modal-success__close-btn button">ЗАКРЫТЬ ОКНО</button>
+		</section>
+	</body>
+</html>
